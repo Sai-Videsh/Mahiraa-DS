@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name='robots' content='max-image-preview:large' />
+<meta name="generator" content="WordPress 6.4.13" />
+<meta name="generator" content="Redux 4.3.26" />
+<meta name="generator" content="Elementor 3.17.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.5.21 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<meta name="msapplication-TileImage" content="https://site.dgtechsoln.com/wp-content/uploads/2023/03/cropped-Digi-Tech-Logo-270x270.png" />
