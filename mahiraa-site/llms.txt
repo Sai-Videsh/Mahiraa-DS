@@ -1,0 +1,36 @@
+# Mahiraa Designer Studio — llms.txt (for AI crawlers / answer engines)
+# Spec: https://llmstxt.org/ — TODO: replace domain with final live domain
+
+> Mahiraa Designer Studio by Chaitra J is a 5-star rated bridal boutique and designer studio
+> in Sahakar Nagar, Bengaluru. Custom bridal lehengas, designer blouses, sarees, gowns,
+> western wear and kids couture with in-house stitching, perfect fit and on-time delivery.
+
+## Studio
+
+- Name: Mahiraa Designer Studio
+- Owner: Chaitra J
+- Address: No. 547/15, Trinity Square II, 1st Floor, A Block, Opp. Glen's Bake House, Sahakar Nagar, Bengaluru 560092
+- Phone: +91 89719 68008 (tel:+918971968008)
+- WhatsApp: https://wa.me/+918971968008
+- Email: mahiraadesignerstudio2026@gmail.com
+- Instagram: https://www.instagram.com/mahiraa_designerstudio
+- Maps: https://maps.app.goo.gl/YAppNZ5yAiwz6UNJ9
+- Hours: Mon–Sun 10:00–20:00
+
+## Collections
+
+- Bridal Lehengas (22 designs): silk, tulle & banarasi, customised for fabric, fit & occasion
+- Designer Blouses (27 designs): hand-embroidered backs, kundan necklines, lotus & peacock motifs
+- Gowns & Sarees (18 designs): tulle gowns, heirloom-finish sarees, western dresses
+- Atelier (14): saree finishing, kuchu & tassels, western & kids couture
+
+## Reviews
+
+- Rated 5 stars on Google (7 reviews). Customers praise perfect fit, flawless finishing,
+  understanding of requirements, on-time delivery and reasonable pricing.
+
+## Enquire
+
+- WhatsApp the studio: https://wa.me/+918971968008
+- Call: tel:+918971968008
+- Visit: #visit section on https://mahiraadesignerstudio.in/

@@ -144,44 +144,4 @@
     es.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add("visible"); io.unobserve(en.target); } });
   }, {threshold:.12});
   $$(".reveal").forEach(function(el){ io.observe(el); });
-
-  /* ---------- New Collection popup ---------- */
-  var ncPopup = $("#ncPopup");
-  var ncSlides = $$(".nc-slide"), ncDotsWrap = $("#ncDots"), ncIdx = 0;
-  ncSlides.forEach(function(_, i){
-    var b = document.createElement("button");
-    b.setAttribute("aria-label", "Look " + (i+1));
-    if(i===0) b.classList.add("active");
-    b.addEventListener("click", function(){ showNC(i); });
-    ncDotsWrap.appendChild(b);
-  });
-  var ncDots = $$("button", ncDotsWrap);
-  var ncPrevBtn = $("#ncPrev"), ncNextBtn = $("#ncNext");
-  function showNC(i){
-    ncSlides[ncIdx].classList.remove("active"); ncDots[ncIdx].classList.remove("active");
-    ncIdx = (i + ncSlides.length) % ncSlides.length;
-    ncSlides[ncIdx].classList.add("active"); ncDots[ncIdx].classList.add("active");
-    fitNCArrows();
-  }
-  function fitNCArrows(){
-    var img = ncSlides[ncIdx].querySelector("img");
-    function place(){
-      var elW = img.clientWidth, elH = img.clientHeight;
-      var iw = img.naturalWidth || elW, ih = img.naturalHeight || elH;
-      var s = Math.min(elW / iw, elH / ih);
-      var gap = Math.max(0, (elW - iw * s) / 2);
-      ncPrevBtn.style.left = (gap + 8) + "px";
-      ncNextBtn.style.right = (gap + 8) + "px";
-    }
-    if(img.complete && img.naturalWidth) place();
-    else img.addEventListener("load", place, {once:true});
-  }
-  window.addEventListener("resize", function(){ if(ncPopup.classList.contains("open")) fitNCArrows(); });
-  $("#ncFloat").addEventListener("click", function(){ showNC(0); ncPopup.classList.add("open"); ncPopup.setAttribute("aria-hidden","false"); document.body.style.overflow = "hidden"; });
-  function closeNC(){ ncPopup.classList.remove("open"); ncPopup.setAttribute("aria-hidden","true"); document.body.style.overflow = ""; }
-  $("#ncClose").addEventListener("click", closeNC);
-  $("#ncNext").addEventListener("click", function(){ showNC(ncIdx+1); });
-  $("#ncPrev").addEventListener("click", function(){ showNC(ncIdx-1); });
-  ncPopup.addEventListener("click", function(e){ if(e.target===ncPopup) closeNC(); });
-  document.addEventListener("keydown", function(e){ if(e.key==="Escape" && ncPopup.classList.contains("open")) closeNC(); });
 })();

@@ -1,0 +1,32 @@
+# Mahiraa Designer Studio – robots.txt
+# TODO: replace https://mahiraadesignerstudio.in/ with your final live domain
+
+User-agent: *
+Allow: /
+
+# Explicitly allow AI / answer-engine crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://mahiraadesignerstudio.in/sitemap.xml

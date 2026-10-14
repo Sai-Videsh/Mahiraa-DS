@@ -1,0 +1,16 @@
+{
+  "name": "Mahiraa Designer Studio",
+  "short_name": "Mahiraa",
+  "description": "Bridal boutique in Sahakar Nagar, Bengaluru – custom lehengas, blouses, sarees, gowns.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff8f0",
+  "theme_color": "#2b1420",
+  "icons": [
+    {
+      "src": "images/Mahiraa-Designer-Studio-1-e1784632328247.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
